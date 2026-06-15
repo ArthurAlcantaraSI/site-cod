@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COD ELITE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    <img src="logo/logoSITE.png" class="logo">
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="operadores.html">Operadores</a>
+        <a href="viloes.html">Vilões</a>
+        <a href="mapas.html">Mapas</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="modos.html">Modos de Jogo</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+    </header>
+
+    <section class="Heroi">
+
+        <video autoplay muted loop playsinline class="video-fundo">
+            <source src="videoINICIO.pm4.mp4" type="video/mp4">
+        </video>
+
+        <div class="Sobreposicao">
+            <h2>ENTRE NA MISSÃO</h2>
+
+            <p>
+                Um site criado para apresentar curiosidades e informações sobre o universo Call of Duty.
+            </p>
+
+            <a href="#destaques" class="btn-explorar"
+               onclick="document.getElementById('destaques').scrollIntoView({behavior:'smooth'})">
+               EXPLORAR
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="destaques" id="destaques">
+
+    <h2>Destaques</h2>
+
+    <div class="cards">
+
+        <div class="card" onclick="window.location.href='operadores.html'">
+            <h3>Operadores</h3>
+            <p>Conheça os soldados mais icônicos da franquia.</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='viloes.html'">
+            <h3>Vilões</h3>
+            <p>Descubra os maiores antagonistas da história de Call of Duty.</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='mapas.html'">
+            <h3>Mapas</h3>
+            <p>Reviva os cenários mais famosos da franquia.</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='jogos.html'">
+            <h3>Jogos</h3>
+            <p>Explore todos os títulos lançados da série Call of Duty.</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='modos.html'">
+            <h3>Modos de Jogo</h3>
+            <p>Descubra as diferentes formas de jogar Call of Duty.</p>
+        </div>
+
+        <div class="card" onclick="window.location.href='sobre.html'">
+            <h3>Sobre</h3>
+            <p>Conheça mais sobre o projeto e sua criação.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
